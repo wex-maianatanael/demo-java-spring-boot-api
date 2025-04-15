@@ -33,9 +33,16 @@ out/
 !**/src/test/**/out/
 
 HELP.md
-.mvn
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+# Maven
 /target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+mvnw
+mvnw.cmd
+
+# System
+.DS_Store
